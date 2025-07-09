@@ -375,6 +375,171 @@
 
         <p>Setiap jaringan memiliki peran penting untuk pengembangan, edukasi, dan efisiensi transaksi Bitcoin. Mainnet adalah tempat aset asli berada, sementara testnet, signet, dan regtest mendukung komunitas developer.</p>
     </section>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perbandingan jaringan BTC, ERC-20, BEP-20, TRC-20, dan Lightning Network.">
+    <meta name="keywords" content="BTC, BEP20, ERC20, TRC20, Lightning, blockchain">
+    <meta name="author" content="Belajar Bitcoin">
+    <title>Perbandingan Jaringan Bitcoin dan Token Lainnya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #fceabb, #f8b500);
+            color: #333;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+        }
+        p {
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f39c12;
+            color: white;
+        }
+        td {
+            font-size: 0.95em;
+        }
+        .cta {
+            background-color: white;
+            color: #f39c12;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .cta:hover {
+            background-color: #f39c12;
+            color: white;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Perbandingan Jaringan BTC, BEP-20, ERC-20, TRC-20 & Lightning</h1>
+
+    <p>
+        Dalam dunia kripto, banyak pengguna baru kebingungan membedakan berbagai jenis jaringan blockchain.
+        Meskipun sama-sama digunakan untuk mengirim aset digital seperti USDT atau BTC, setiap jaringan memiliki karakteristik dan biaya transaksi yang berbeda.
+    </p>
+
+    <h2>📌 Penjelasan Singkat Masing-Masing Jaringan:</h2>
+    <ul>
+        <li><strong>Bitcoin (BTC)</strong> – Jaringan asli Bitcoin untuk menyimpan dan mengirim BTC murni.</li>
+        <li><strong>ERC-20</strong> – Standar token pada jaringan Ethereum. Populer di dunia DeFi dan NFT, tapi biaya gas bisa tinggi.</li>
+        <li><strong>BEP-20</strong> – Versi efisien dari ERC-20 di jaringan BNB Smart Chain (BSC). Biaya rendah dan transaksi cepat.</li>
+        <li><strong>TRC-20</strong> – Token standar TRON. Banyak dipakai untuk transfer USDT dengan biaya nyaris nol.</li>
+        <li><strong>Lightning Network</strong> – Layer kedua di atas Bitcoin, memungkinkan transaksi mikro BTC dengan instan dan murah.</li>
+    </ul>
+
+    <h2 style="margin-top:30px;">🔍 Tabel Perbandingan Lengkap</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Jaringan</th>
+                <th>Blockchain</th>
+                <th>Contoh Token</th>
+                <th>Biaya Transaksi</th>
+                <th>Kecepatan</th>
+                <th>Kegunaan Umum</th>
+                <th>Dukungan Wallet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Bitcoin (BTC)</strong></td>
+                <td>Bitcoin</td>
+                <td>BTC</td>
+                <td>Sedang–Tinggi</td>
+                <td>Sedang</td>
+                <td>Transfer nilai & simpanan digital</td>
+                <td>Trust Wallet, Electrum, BlueWallet</td>
+            </tr>
+            <tr>
+                <td><strong>ERC-20</strong></td>
+                <td>Ethereum</td>
+                <td>USDT, LINK, UNI</td>
+                <td>Tinggi</td>
+                <td>Menengah</td>
+                <td>DeFi, NFT, tokenisasi aset</td>
+                <td>MetaMask, Trust Wallet</td>
+            </tr>
+            <tr>
+                <td><strong>BEP-20</strong></td>
+                <td>BNB Smart Chain</td>
+                <td>CAKE, BUSD</td>
+                <td>Rendah</td>
+                <td>Cepat</td>
+                <td>Alternatif murah dari ERC-20</td>
+                <td>MetaMask, Trust Wallet</td>
+            </tr>
+            <tr>
+                <td><strong>TRC-20</strong></td>
+                <td>TRON</td>
+                <td>USDT (TRC-20)</td>
+                <td>Sangat Rendah</td>
+                <td>Sangat Cepat</td>
+                <td>Transfer USDT antar exchange</td>
+                <td>Trust Wallet, TronLink</td>
+            </tr>
+            <tr>
+                <td><strong>Lightning Network</strong></td>
+                <td>Layer-2 Bitcoin</td>
+                <td>BTC (off-chain)</td>
+                <td>Sangat Rendah</td>
+                <td>Instan</td>
+                <td>Transaksi mikro BTC</td>
+                <td>Wallet of Satoshi, Phoenix</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="text-align:center;">
+        <a href="index.html" class="cta">← Kembali ke Panduan Utama</a>
+    </p>
+
+    <footer>
+        <p>&copy; 2025 Belajar Bitcoin | Panduan Blockchain & Aset Kripto</p>
+    </footer>
+
+</body>
+</html>
 
     <p style="text-align:center;">
     </p>
